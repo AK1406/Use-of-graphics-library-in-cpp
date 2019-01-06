@@ -1,0 +1,280 @@
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+#include<dos.h>
+
+void main()
+ {  clrscr();
+    int gd=DETECT,gm;
+    initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+    for(int i=0;i<67;i+=2)
+    {
+    putpixel(300-i,100+i,11);
+    }
+    for(i=0;i<95;i+=2)
+    {
+    putpixel(301-i,101+i,11);
+    putpixel(302-i,103+i,11);
+    putpixel(303-i,105+i,11);
+    putpixel(304-i,107+i,11);
+    putpixel(305-i,109+i,11);
+    putpixel(306-i,111+i,11);
+    putpixel(307-i,113+i,11);
+    putpixel(308-i,115+i,11);
+    putpixel(309-i,117+i,11);
+    putpixel(310-i,119+i,11);
+    putpixel(311-i,121+i,11);
+    putpixel(311-i,123+i,11);
+    }
+    for(i=0;i<75;i+=2)
+    {
+    putpixel(310-i,116+i,11);
+    putpixel(312-i,118+i,11);
+    putpixel(313-i,124+i,11);
+    putpixel(310-i,123+i,11);
+    }
+
+    putpixel(300,103,11);
+    putpixel(306,106,11);
+    putpixel(308,110,11);
+    putpixel(310,115,11);
+    putpixel(311,120,11);
+    putpixel(310,125,11);
+    putpixel(308,130,11);
+    for(i=0;i<35;i+=5)
+    {
+       putpixel(308-i,130+i,11);
+     }
+     putpixel(278,160,11);
+     putpixel(274,165,11);
+     putpixel(270,170,11);
+     putpixel(265,175,11);
+     putpixel(260,180,11);
+      putpixel(255,185,11);
+      putpixel(250,190,11);
+    putpixel(245,195,11);
+     putpixel(240,200,11);
+     putpixel(239,205,11);
+     putpixel(241,210,11);
+     putpixel(247,213,11);
+
+
+     putpixel(253,215,5);
+     putpixel(258,213,5);
+     putpixel(263,213,5);
+     putpixel(268,213,5);
+     putpixel(273,213,5);
+     putpixel(278,214,5);
+
+     for(i=0;i<60;i+=2)
+     { putpixel(248+i,190,5);
+       putpixel(247+i,192,5);
+       putpixel(246+i,194,5);
+       putpixel(245+i,196,5);
+       putpixel(244+i,198,5);
+       putpixel(242+i,200,5);
+       putpixel(241+i,202,5);
+       }
+       for(i=0;i<50;i+=2)
+       {
+       putpixel(240+i,204,5);
+       putpixel(241+i,206,5);
+       putpixel(242+i,208,5);
+     }
+     for(i=0;i<38;i+=2)
+     {
+	putpixel(245+i,210,5);
+	putpixel(247+i,212,5);
+      }
+      for(i=0;i<50;i+=2)
+      {
+      putpixel(308-i,192+i,4);
+      putpixel(310-i,193+i,4);
+      }
+      for(i=0;i<35;i+=2)
+      {
+      putpixel(303-i,194+i,4);
+      }
+      putpixel(300,198,4);
+      putpixel(295,200,4);
+      putpixel(290,205,4);
+      putpixel(285,210,4);
+      putpixel(280,215,4);
+      putpixel(275,220,4);
+      putpixel(270,225,4);
+      putpixel(265,230,4);
+      putpixel(263,235,4);
+      putpixel(262,240,4);
+      putpixel(261,245,4);
+      putpixel(261,250,4);
+      putpixel(262,255,4);
+      putpixel(263,260,4);
+      putpixel(265,265,4);
+      putpixel(267,270,4);
+      for(i=0;i<15;i+=2)
+      {
+       putpixel(271+i,272-i,4);
+       putpixel(272+i,275-i,4);
+       putpixel(274+i,278-i,4);
+      }
+      for(i=0;i<10;i+=2)
+       {
+	putpixel(276+i,280-i,4);
+	putpixel(279+i,283-i,4);
+       }
+       for(i=0;i<5;i+=2)
+	{
+	 putpixel(283+i,283-i,4);
+	 putpixel(285+i,285-i,4);
+	 }
+	 for(i=0;i<5;i+=2)
+	 {
+	  putpixel(288+i,287-i,4);
+	 }
+	  for(i=0;i<4;i+=2)
+	  {
+	  putpixel(290+i,290-i,4);
+	 }
+      putpixel(295,291,4);
+      putpixel(298,293,4);
+      putpixel(304,295,LIGHTRED);
+      putpixel(312,300,LIGHTRED);
+
+      putpixel(310,190,5);
+      for(i=0;i<55;i+=2)
+      {
+      putpixel(315-i,192+i,4);
+      }
+      for(i=0;i<60;i+=2)
+      {
+      putpixel(319-i,191+i,4);
+      putpixel(320-i,192+i,4);
+      }
+      for(i=0;i<63;i+=2)
+      {
+       putpixel(323-i,193+i,4);
+       putpixel(325-i,194+i,4);
+      }
+      for(i=0;i<65;i+=2)
+      {
+       putpixel(328-i,195+i,4);
+       putpixel(330-i,196+i,4);
+      }
+
+      for(i=0;i<65;i+=2)
+      {
+       putpixel(331-i,199+i,4);
+       putpixel(332-i,200+i,4);
+      }
+      for(i=0;i<65;i+=2)
+      {
+       putpixel(333-i,203+i,4);
+       putpixel(334-i,205+i,4);
+      }
+      for(i=0;i<45;i+=2)
+      {
+       putpixel(334-i,210+i,4);
+      }
+      putpixel(332,215,4);
+      putpixel(329,220,4);
+      putpixel(325,225,4);
+      putpixel(319,230,4);
+      putpixel(312,235,4);
+      putpixel(305,240,4);
+      putpixel(295,245,4);
+      putpixel(290,250,4);
+
+      for(i=0;i<10;i+=2)
+      {
+       putpixel(293-i,253+i,LIGHTRED);
+      }
+      for(i=0;i<8;i+=2)
+      {
+      putpixel(292-i,258+i,LIGHTRED);
+      }
+      for(i=0;i<6;i+=2)
+      {
+      putpixel(292-i,263+i,LIGHTRED);
+      }
+      for(i=0;i<5;i+=2)
+      {
+       putpixel(293-i,268+i,LIGHTRED);
+      }
+      for(i=0;i<5;i+=2)
+      {
+      putpixel(295-i,273+i,LIGHTRED);
+      }
+      for(i=0;i<4;i+=2)
+      {
+      putpixel(297-i,278+i,LIGHTRED);
+      }
+      for(i=0;i<4;i+=2)
+      {
+      putpixel(299,283,LIGHTRED);
+      }
+      putpixel(301,288,LIGHTRED);
+
+      putpixel(285,255,LIGHTRED);
+      putpixel(283,260,LIGHTRED);
+      putpixel(284,265,LIGHTRED);
+      putpixel(285,270,LIGHTRED);
+      putpixel(288,275,LIGHTRED);
+      putpixel(293,282,LIGHTRED);
+      putpixel(297,287,LIGHTRED);
+
+     for(i=0;i<20;i+=2)
+     {
+      putpixel(231-i,167+i,11);
+      putpixel(232-i,169+i,11);
+     }
+    putpixel(225,170,11);
+    putpixel(221,173,11);
+    putpixel(214,180,11);
+    putpixel(211,185,11);
+    putpixel(209,190,11);
+    putpixel(208,200,11);
+    putpixel(210,205,11);
+    putpixel(213,210,11);
+    putpixel(217,215,11);
+    for(i=0;i<15;i+=2)
+    {
+     putpixel(220+i,215-i,11);
+     putpixel(221+i,216-i,11);
+    }
+    for(i=0;i<15;i+=2)
+    {
+    putpixel(222+i,216-i,11);
+    putpixel(223+i,218-i,11);
+    putpixel(225+i,220-i,11);
+    }
+    for(i=0;i<13;i+=2)
+    {
+      putpixel(226+i,222-i,11);
+      }
+    for(i=0;i<10;i+=2)
+    {
+    putpixel(233+i,220-i,11);
+    putpixel(234+i,223-i,11);
+   }
+    putpixel(238,221,11);
+    putpixel(243,218,11);
+    putpixel(247,216,11);
+
+
+      for(i=0;i<=110;i++)
+  {
+   setcolor(i);
+   settextstyle(TRIPLEX_FONT,HORIZ_DIR,5);
+   outtextxy(110,285,"technojam_galgotias");
+  delay(100);
+  }
+
+
+
+
+
+
+
+    getch();
+  }
+
