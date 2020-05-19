@@ -1,2 +1,15 @@
 # work-on-graphics
-the things that I had made during learning graphics in c++
+Use of graphics library in c++
+
+
+<img src="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/Angry%20bird_output.jpg" width=250>
+
+<img src="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/Ironman.jpg" width=250>
+
+<img src="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/Planet.jpg" width=250>
+
+<img src ="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/flower.jpg" width=250>
+
+<img src="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/logo.jpg" width=250>
+
+<img src ="https://github.com/Anju1415/graphics-library-in-c-/blob/master/Graphics%20in%20c%2B%2B/wish%20gn.jpg" width=250>
